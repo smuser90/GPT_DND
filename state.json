@@ -1,0 +1,133 @@
+
+{
+  "Party": [
+    {
+      "CharacterDetails": {
+        "Name": "Ja'Mingus Dew",
+        "ClassAndLevel": "Druid 1",
+        "Race": "Hill Dwarf",
+        "Background": "Haunted One",
+        "PlayerName": "Chris",
+        "ExperiencePoints": 10
+      },
+      "Abilities": {
+        "Strength": { "Score": 10, "Modifier": "+0" },
+        "Dexterity": { "Score": 12, "Modifier": "+1" },
+        "Constitution": { "Score": 16, "Modifier": "+3" },
+        "Intelligence": { "Score": 13, "Modifier": "+1" },
+        "Wisdom": { "Score": 16, "Modifier": "+3" },
+        "Charisma": { "Score": 8, "Modifier": "-1" }
+      },
+      "Advantages": {
+        "AgainstPoison": true
+      },
+      "Skills": {
+        "Acrobatics": "+1",
+        "AnimalHandling": "+3",
+        "Arcana": { "Score": "+3", "Proficient": true },
+        "Athletics": "+0",
+        "Deception": "-1",
+        "History": "+1",
+        "Insight": "+3",
+        "Intimidation": "-1",
+        "Investigation": { "Score": "+3", "Proficient": true },
+        "Medicine": "+3",
+        "Nature": "+1",
+        "Perception": { "Score": "+5", "Proficient": true },
+        "Performance": "-1",
+        "Persuasion": "-1",
+        "Religion": "+1",
+        "SleightOfHand": "+1",
+        "Stealth": "+1",
+        "Survival": { "Score": "+5", "Proficient": true }
+      },
+      "DefensesAndProficiencies": {
+        "ArmorClass": 11,
+        "Speed": "25 ft. (Walking)",
+        "Resistances": ["Poison"],
+        "ArmorProficiencies": ["Light Armor", "Medium Armor", "Shields"],
+        "WeaponProficiencies": [
+          "Battleaxe",
+          "Club",
+          "Dagger",
+          "Dart",
+          "Handaxe",
+          "Javelin",
+          "Light Hammer",
+          "Mace",
+          "Quarterstaff",
+          "Scimitar",
+          "Sickle",
+          "Sling",
+          "Spear",
+          "Warhammer"
+        ],
+        "ToolProficiencies": ["Brewer's Supplies", "Herbalism Kit"],
+        "Languages": ["Common", "Deep Speech", "Druidic", "Dwarvish", "Goblin"]
+      },
+      "OtherInformation": {
+        "PassiveWisdomPerception": 15,
+        "PassiveIntelligenceInvestigation": 13,
+        "Senses": "Darkvision 60 ft.",
+        "HitPoints": 12,
+        "HitDice": "1d8",
+        "DeathSaves": "Not specified",
+        "MagicCasting": {
+          "SpellsKnown": ["Detect Magic", "Other Spells Not Listed"],
+          "SpellSlots": {
+              "Level1": {
+                "Total": 2,
+                "Remaining": 0
+              }
+            }
+        },
+        "StandardActions": [
+          "Attack",
+          "Cast a Spell",
+          "Dash",
+          "Disengage",
+          "Dodge",
+          "Help",
+          "Hide",
+          "Ready",
+          "Search",
+          "Use an Object",
+          "Opportunity Attack",
+          "Grapple",
+          "Shove",
+          "Improvise",
+          "Two-Weapon Fighting",
+          "Interact with an Object"
+        ]
+      },
+      "WeaponAttacksAndCantrips": {
+        "UnarmedStrike": {
+          "Hit": "+2",
+          "DamageType": "1 Bludgeoning"
+        }
+      },
+      "CurrentActivity": {
+        "ActionTaken": "Cast Detect Magic",
+        "DiceRollForAction": 15,
+        "OutcomeOfAction": {
+          "Success": true,
+          "Details": "Identified necromantic energy surrounding several ancient trees as the source of the forest's corruption."
+        }
+      }
+    }
+  ],
+  "Location": {
+    "Map": "Whispering Woods of Elderon",
+    "Coordinates": [2, 5, 0],
+    "Sublocation": "Clearing",
+    "SurroundingsDescription": "A secluded clearing, now known to be afflicted by necromantic energy tied to the corruption of the woods."
+  },
+  "GameDetails": {
+    "CurrentState": "Exploration",
+    "Event": "Discovery",
+    "EventDescription": "Ja'Mingus used 'Detect Magic' to identify dark necromantic energies surrounding the trees, enhancing his understanding of the corruption.",
+    "DiceRolls": [{ "DetectMagic": 15 }],
+    "ExperiencePointsEarned": 10,
+    "ItemsAcquired": []
+  }
+}
